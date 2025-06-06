@@ -1,8 +1,33 @@
-h1 {
-        color: rgb(171, 244, 13);
-        background-color: bisque;
-    }
+/* h1{
+    color: rgb(255, 255, 0);
+} */
+/* 
+h1{
+    /* color: #0000ff; */
+    /* color: #ffff00;
+}
 p{
-    color: chartreuse;
-    background-color: bisque;
+    color: rgb(255, 255,255);
+    background-color: rgb(255, 255, 0);
+}  */
+
+h1{
+    text-align: center;
+    border: solid;
+    width: 100%;
+}
+h2{
+    text-align: right;
+}
+h3{
+    color: aqua;
+    text-align: justify;
+}
+p{
+    color: blueviolet;
+    text-align: justify;
+
+}
+img{
+    text-align: center;
 }
