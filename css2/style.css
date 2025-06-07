@@ -9,6 +9,9 @@ h3{
 h1 , h3{
     color: #b92b27;
 }
+h2{
+    color: aqua;
+}
 /* id selector */
 #login {
     color: blue;
@@ -48,4 +51,40 @@ p + h3{
 div > input{
     color: hotpink;
     background-color: azure;
+}
+/* Attribute */
+input[type = "passowrd"]{
+    columns: red;
+}
+/* pseudo */
+button:hover{
+    color: aqua;
+    background-color: rgb(104, 80, 126);
+}
+h3:hover{
+    text-decoration: none;
+}
+button:active{
+    color: rgb(96, 132, 178);
+    background-color: hotpink;
+}
+p:active{
+    font-weight: bold;
+    color: rgb(89, 89, 137);
+}
+h2:hover{
+    color: rgb(191, 124, 124);
+}
+input[type="radio"]:checked + label{
+    color: brown;
+    font-weight: bold;
+}
+h1::first-letter{
+    color: rgb(233, 7, 44);
+}
+p::first-line{
+    color: rgb(227, 76, 25);
+}
+p::selection{
+    color: rgb(203, 170, 176);
 }
