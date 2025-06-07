@@ -1,0 +1,51 @@
+/* universal  */
+*{
+    font-family: 'Courier New', Courier, monospace
+}
+/* element */
+h3{
+    color: purple;
+}
+h1 , h3{
+    color: #b92b27;
+}
+/* id selector */
+#login {
+    color: blue;
+    background-color: white;
+}
+#signup{
+    background-color: #b92b27;
+}
+/* class */
+.upvote{
+    background-color: rgb(15, 249, 47);
+    color: rgb(208, 123, 20);
+}
+#myid{
+    color: rgb(188, 174, 15);
+}
+/* Descendant */
+p a{
+    color: hotpink;
+    background-color: rgb(246, 218, 242);
+}
+nav ul li{
+    color: rgb(105, 75, 123);
+    ;
+}
+/* sibling */
+p + h3{
+    color: cadetblue;
+    text-decoration: underline;
+}
+.upvote + button {
+    color: blueviolet;
+    background-color: beige;
+    font-weight: bold;
+}
+/* child combinator */
+div > input{
+    color: hotpink;
+    background-color: azure;
+}
