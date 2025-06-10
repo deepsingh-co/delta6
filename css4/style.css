@@ -1,0 +1,30 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(25, 200, 75, 0.51);
+    transition-duration: 2s;
+    /* a = alpha */
+}
+#opacity{
+    background-color: #ffa511;
+    opacity: 0.5;
+
+}
+div:hover{
+    background-color: chartreuse;
+    border-radius: 50px;
+}
+#diss{
+    height: 100px;
+    width: 100px;
+    background-color: burlywood;
+    margin-top: 10px;
+    margin: 0 auto;
+    transition: margin-top 2s ease-in0.2s;
+}
+#diss:hover{
+    margin-top: 400px;
+    background-color: blue;
+    transform: rotate(45deg);
+
+}
