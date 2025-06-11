@@ -1,0 +1,59 @@
+.card{
+    height: 400px;
+    width: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 15px black;
+    transition: 1s;
+}
+img{
+    width: 100%;
+    border-radius:5px 5px 0 0 ;
+    
+}
+.desc{
+    padding: 5px 5px 0 0;
+}
+.card:hover{
+    box-shadow: 15px 10px 20px greenyellow;
+}
+h3:hover{
+    color: hotpink;
+    text-shadow: 5px 10px 10px rgb(21, 255, 33);
+}
+#smile{
+    background-color: rgb(235, 119, 11);
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+}
+#mouth{
+    height: 75px;
+    width: 150px;
+    background-color: brown;
+    border-radius: 0px 0px 30px 30px;
+    position: absolute;
+    top: 250px;
+    left: 125px;
+}
+#left-eye{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: black;
+    position: absolute;
+    left: 120px;
+    top: 100px;
+
+}
+#right-eye{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: black;
+    position: absolute;
+    right: 480px;
+    top: 100px;
+}
