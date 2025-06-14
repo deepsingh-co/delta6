@@ -1,0 +1,48 @@
+.box{
+    height:  100px;
+    width: 300px;
+    background-color: rgb(250, 255, 192);
+    /* animation-name: fontAnimtion;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction:normal ; */
+
+    animation: fontAnimtion 3s ease-in 0s infinite normal ;
+
+}
+.name{
+    height: 150px;
+    width: 300px;
+    background-color: aqua;
+    font-size: large;
+    text-align: center;
+    animation: fontColor 4s ease-in 0s 4 reverse;
+    }
+@keyframes fontAnimtion{
+    from{
+        font-size: 20px;
+        color: aqua;
+        background-color: bisque;
+    }
+    to{
+        font-size: 50px;
+        color: rgb(245, 10, 49);
+        background-color: chartreuse;
+    }
+}
+@keyframes fontColor{
+    0%{
+       background-color: blueviolet;
+    }
+    40%{
+        background-color: gray;
+    }
+    75%{
+        background-color: hotpink;
+    }
+    100%{
+        background-color: rgb(207, 15, 15);
+    }
+}
