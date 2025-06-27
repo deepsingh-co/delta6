@@ -1,0 +1,1 @@
+let color = ["red", "yellow","green" ,"white"];
