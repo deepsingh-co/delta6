@@ -6,3 +6,6 @@ for(let i=0;i<studen.length;i++){
     }
 }
 
+for(studentName of studen){
+    console.log(studentName);
+}
