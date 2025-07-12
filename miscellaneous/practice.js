@@ -1,0 +1,1 @@
+const sqr =(n)=> n*n;
