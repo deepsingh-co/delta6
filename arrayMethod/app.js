@@ -20,7 +20,7 @@ let arrs = [{
     age:20,
 },{
     name:"Anshika",
-    age:19,
+    age:20,
 },];
 
 arrs.forEach((student) =>{
