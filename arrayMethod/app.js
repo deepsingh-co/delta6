@@ -34,3 +34,19 @@ let num = [1,2,3,4];
 let double = num.map((el) =>{
     return el *el;
 });
+
+let nums =[1,2,3,4,5,6,7,8,9,10,12,13];
+let ans = nums.filter((el)=> {
+    return el % 2 ==0;  //Even->true , odd->false
+});
+
+
+//EVWRY AND SUM
+
+let check = [2,4,6].every((el) => el%2 ==0);
+
+//REDUCE METHOD
+
+let number = [1,2,3,4];
+let finalNum = num.reduce((res ,el)=>res+el);
+console.log(finalNum);
