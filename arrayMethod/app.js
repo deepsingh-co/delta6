@@ -50,3 +50,18 @@ let check = [2,4,6].every((el) => el%2 ==0);
 let number = [1,2,3,4];
 let finalNum = num.reduce((res ,el)=>res+el);
 console.log(finalNum);
+
+//MAXIMUM IN ARRAY8
+
+let maxNum = [1,2,5,3,56,5,96,85,46,2];
+let max =maxNum.reduce((max, el)=>{
+    if (max<el) {
+        return el;
+    
+    }else{
+        return max;
+    }
+});
+
+//PRACTICE QUESTION
+
