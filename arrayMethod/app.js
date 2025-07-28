@@ -64,4 +64,16 @@ let max =maxNum.reduce((max, el)=>{
 });
 
 //PRACTICE QUESTION
+function getMin(numbers){
+    let min = numbers.reduce((min , el) =>{
+        if (min <el) {
+            return min;
+        }else{
+            return el;
+        }
+    });
+    return min;
+}
 
+let numbers =[5,2,65,95,2];
+console.log(numbers);
