@@ -76,4 +76,3 @@ function getMin(numbers){
 }
 
 let numbers =[5,2,65,95,2];
-console.log(numbers);
