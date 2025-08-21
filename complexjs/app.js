@@ -92,3 +92,23 @@ function savetoDb(data ){
 }
 
 // savetoDb ("Anurudh singh");
+
+// then and catch methods
+
+//let request = savetoDb("Deep Singh");
+savetoDb("Anurudh")
+//request.then(() => {
+.then(() => {
+
+    console.log("Data 1 was saved ,Promise was resolve");
+    return savetoDb("Komal").then(() =>{
+    })
+    .then(() => {
+
+        console.log("Data 2 was saved");
+    })
+
+})
+.catch(() => {
+    console.log("Promise was Rejected");
+});
