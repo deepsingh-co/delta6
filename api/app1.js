@@ -22,3 +22,16 @@ async function getShayrari() {
     
 }
 
+
+
+const url1 ="https://v2.jokeapi.dev/joke/Programming";
+
+async function getJoke() {
+    try{
+        const config = {header: {Accept: "application/json"}};
+        let res = await axios.get(url1 , config);
+        console.log(res.data);   
+    }catch(err){
+        console.log(err);
+    }
+}
