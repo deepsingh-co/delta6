@@ -9,6 +9,23 @@ app.listen(port , () => {
 
 //controal + c is used to stop server
 
-app.use((req , res) => {
+//app.use((req , res) => {
     console.log("Request received");
+    res.send("This is a basic response")
+//});
+
+app.get("/" ,(req , res) =>{
+    res.send("This is root path");
 });
+
+app.get("/love" ,(req , res) =>{
+    res.send("I love you Madam ji");
+});
+
+app.get("/hate" ,(req , res) =>{
+    res.send("i Hate love story");
+});
+
+app.get("*" ,(req , res) =>{
+    res.send("Not interest in other girl")
+})
