@@ -29,3 +29,6 @@ app.get("/hate" ,(req , res) =>{
 app.get("*" ,(req , res) =>{
     res.send("Not interest in other girl")
 })
+app.get("/komal" ,(req , res) => {
+    res.send("Kaise ho ap miss komal")
+})
