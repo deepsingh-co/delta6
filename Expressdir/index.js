@@ -35,3 +35,6 @@ app.get("/komal" ,(req , res) => {
 app.get("/deep" ,(req , res) => {
     res.send("Kaise ho ap miss komal")
 })
+app.get("/deep" ,(req , res) => {
+    res.send("Kaise ho ap miss komal")
+})
