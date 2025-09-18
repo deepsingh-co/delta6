@@ -10,8 +10,8 @@ app.listen(port , () => {
 //controal + c is used to stop server
 
 //app.use((req , res) => {
-    console.log("Request received");
-    res.send("This is a basic response")
+  //  console.log("Request received");
+   // res.send("This is a basic response")
 //});
 
 app.get("/" ,(req , res) =>{
@@ -30,9 +30,6 @@ app.get("*" ,(req , res) =>{
     res.send("Not interest in other girl")
 })
 app.get("/komal" ,(req , res) => {
-    res.send("Kaise ho ap miss komal")
-})
-app.get("/deep" ,(req , res) => {
     res.send("Kaise ho ap miss komal")
 })
 app.get("/deep" ,(req , res) => {
