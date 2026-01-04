@@ -22,5 +22,11 @@ class Teacher extends Person {
     }
 }
 
+class Hod extends Person {
+    constructor(name , age , salary){
+        super(name , age);
+        this.salary = salary;
+    }
+}
 let s1 = new Student("Anurudh" , 21 , 95);
 let t1 = new Teacher("Komal" , 21 , 50000);
